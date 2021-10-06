@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1 {
+                padding-top: 20px;
+                color:rgb(63, 50, 37);
+                text-align: center;
+                font-size: 33px;
+            }
+
+            h3{
+                text-align: center;
+                color: rgb(63, 50, 37);
+                padding-top: 5px;
+                padding-bottom: 20px;
+                font-style: italic;
+                font-size: 23px;
+            }
+
+            h4{
+                text-align: center; 
+                font-style: italic; 
+                color: rgb(63, 50, 37); 
+                padding-top: 25px;
+            }
+
+            h5 {
+                text-align: center;
+                padding-left: 60px;
+                padding-right: 20px;
+                color: rgb(63, 50, 37); 
+            }
+
+        </style>
+        <meta name ="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Services</title>
+        <link rel="styleSheet" href="BusinessWebsiteStyle.css">
+    </head>
+    <body class= "backgroundFormat">
+        <section>
+        <header>
+                <nav class= "navFormat">
+                    <ul class="navLinksFormat">
+                        <li class="navEachLink"><a class="moreLink" href="BusinessWebsite.html">Home</a></li>
+                        <li class="navEachLink"><a class="moreLink" href="Services.html">Services</a></li>
+                        <li class= "navEachLink"><a class= "moreLink" href="Contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <h1>Services</h1>
+        </header>
+        </section>
+        
+        <section>
+            <p class="pFormat"> We offer 20-40 minute sessions for a maximum of 4 people at a time. 
+                Since this is a community-based effort there is no charge to our service. Simply
+                enter your zipcode and see what bunnies are available nearby!
+            </p class="pFormat">
+            <form style= "display: flex; flex-flow: row wrap; align-items: center; padding-top: 20px;" name="FrmDataEntry" action="processor.html" method= "get">
+                <h5>Enter Zipcode: </h5>
+                <input style= "margin-left: 60px;"
+                type="text" name= "txtZipcode" id="txtZipcode" value = "" placeholder="Enter your zipcode"/>
+            </form>
+            <img class="mapPhoto" src = "Map.jpg">
+        </section>
+         <section class = "footer">
+            <nav class= "navFormat">
+                <ul class="navLinksFormat">
+                    <h6 class="navEachLink"><a class="footerMoreLink" href="">Help</a></li>
+                    <h6 class="navEachLink"><a class="footerMoreLink" href="">Send feedback</a></li>
+                    <h6 class= "navEachLink"><a class= "footerMoreLink" href="">Privacy</a></li>
+                </ul>
+            </nav>
+         </section>
+
+    </body>
+</html>

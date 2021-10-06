@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana;
+}
+
+.backgroundFormat{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(bunnybackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.bunnyPhoto{
+    display: block;
+    width: 40%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mapPhoto{
+        padding-top: 5%;
+        display: block;
+        width: 70%;
+        height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.navFormat{
+    display: flex;
+    padding: 25px 40px;
+    justify-items: space-between;
+    align-items: center;
+
+}
+
+.navLinksFormat{
+    flex: 1;
+    text-align: center;
+}
+
+.navEachLink{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+}
+
+.moreLink{
+    color: rgb(63, 50, 37);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.footerMoreLink{
+    color:white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+@media(max-width: 700px){
+    h1 {
+        font-size: 27px;
+    }
+    h3 {
+        font-size: 19px;
+    }
+    h4 {
+        font-size: 19px;
+    }
+    .pFormat {
+        font-size: 15px;
+    }
+    .moreLink {
+        font-size: 17px;
+    }
+    .footerMoreLink{
+        font-size: 13px;
+    }
+    h5 {
+        font-size: 17px;
+    }
+}
+
+.pFormat{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: rgb(63, 50, 37);
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer{
+
+    margin: 150px auto;
+    width: 100%;
+    text-align: center;
+    padding:30px 0;
+    background-image: white;
+}
